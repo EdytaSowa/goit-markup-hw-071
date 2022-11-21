@@ -1,4 +1,6 @@
-.occupation__list {
+.occupation { padding-inline:0;
+
+&__list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -7,15 +9,15 @@
   padding-bottom: 94px;
 }
 
-.occupation__item {
+&__item {
   position: relative;
 }
 
-.occupation__image {
+&__image {
   display: block;
 }
 
-.occupation__description {
+&__description {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -28,3 +30,5 @@
   height: 70px;
   padding-block: 27px;
 }
+}
+
