@@ -8,21 +8,21 @@
     justify-content: space-between;
     gap: 30px;
   }
-  
+
   &__item {
     margin: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-  
+
   &__image {
     display: block;
   }
-  
+
   &__worker {
     background-color: rgba(255, 255, 255, 1);
     padding-block: 30px;
   }
-  
+
   &__worker-name {
     font-size: 16px;
     font-weight: 500;
@@ -31,7 +31,7 @@
     text-align: center;
     padding-bottom: 10px;
   }
-  
+
   &__worker-occupation {
     color: $color-description;
     font-size: 16px;
@@ -40,7 +40,7 @@
     margin: 0;
     text-align: center;
   }
-  
+
   &__social-link-list {
     display: flex;
     justify-content: space-around;
@@ -49,20 +49,20 @@
     list-style: none;
     padding-left: 0;
   }
-  
-  &__social-link-item {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    background-color: blue;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
+
+  &__social-item {
+    // display: flex;
+    // width: 44px;
+    // height: 44px;
+    // border-radius: 50%;
+    // align-items: center;
+    // justify-content: center;
+
     background-color: rgba(255, 255, 255, 1);
     fill: $color-icon;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+
     &:hover,
     &:focus {
       background-color: $colorchange;
@@ -70,14 +70,4 @@
       outline: none;
     }
   }
-  
-  &__social-link-icon {
-    width: 20px;
-    height: 20px;
-  }
-  
-
-
-
 }
-

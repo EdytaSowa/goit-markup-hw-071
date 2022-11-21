@@ -60,8 +60,8 @@
     outline: none;
   }
 
-  &:hover &__icon,
-  &:focus &__icon {
+  &:hover .header-contact-list__icon,
+  &:focus .header-contact-list__icon {
     fill: $colorchange;
     outline: none;
   }
