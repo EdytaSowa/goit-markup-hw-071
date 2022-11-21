@@ -5,16 +5,16 @@
   gap: 30px;
   padding-block: 94px;
   padding-inline: 0;
-}
 
-.secondary-section__icon {
+  
+&__icon {
   background-color: rgba(245, 244, 250, 1);
   padding-block: 25px;
   padding-inline: 100px;
   margin-bottom: 30px;
 }
 
-.secondary-section__title {
+&__title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -22,7 +22,7 @@
   margin: 0;
 }
 
-.secondary-section__description {
+&__description {
   margin: 0;
   font-size: 14px;
   font-weight: 400;
@@ -30,9 +30,11 @@
   line-height: 1.71;
 }
 
-.secondary-section__description--left {
+&__description--left {
   padding-left: 0;
 }
+}
+
 
 .secondary-header {
   font-size: 36px;

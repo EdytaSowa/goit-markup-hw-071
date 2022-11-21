@@ -1,0 +1,11 @@
+.line::after {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    content: '';
+    background-image: url(../images/line.svg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+  }
